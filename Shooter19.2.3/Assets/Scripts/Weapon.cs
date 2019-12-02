@@ -13,11 +13,13 @@ public class Weapon : MonoBehaviour
 
     private void SetFiring()
     {
+        
         isFiring = false;
     }
 
     private void Fire()
     {
+        
         isFiring = true;
         Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 
