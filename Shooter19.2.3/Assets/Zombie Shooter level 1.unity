@@ -460,7 +460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 826696288}
-  - component: {fileID: 826696291}
+  - component: {fileID: 826696283}
   - component: {fileID: 826696287}
   - component: {fileID: 826696286}
   - component: {fileID: 826696290}
@@ -473,6 +473,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &826696283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826696282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aec5fbd2df40406abe0c421679a9e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1646497544}
+  smoothing: 5
+  adjustmentAngle: 270
 --- !u!58 &826696285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -603,28 +618,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826696282}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf828cb280f434d489f81cb7a8f24bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1646497544}
   speed: 5
---- !u!114 &826696291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826696282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aec5fbd2df40406abe0c421679a9e9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1646497544}
-  smoothing: 1
-  adjustmentAngle: 270
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
