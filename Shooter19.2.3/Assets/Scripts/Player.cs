@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 public class Player : MonoBehaviour
 {
+    public delegate void UpdateHealth(int newHealth);
+    public static event UpdateHealth OnUpdateHealth;
+
     private Animator gunAnim;
+
     private void Start()
     {
         gunAnim = GetComponent<Animator>();
@@ -15,6 +19,14 @@ public class Player : MonoBehaviour
         else
         {
             gunAnim.SetBool("isFiring", false);
+        }
+    }
+
+    public void SendHealthData(int health)
+    {
+        if (OnUpdateHealth != null)
+        {
+            OnUpdateHealth(health);
         }
     }
 }
