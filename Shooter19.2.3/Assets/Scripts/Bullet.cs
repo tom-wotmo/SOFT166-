@@ -18,6 +18,7 @@ public class Bullet : MonoBehaviour
     {
         
         other.transform.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
+        Die();
     }
 
     private void OnBecameInvisible()
