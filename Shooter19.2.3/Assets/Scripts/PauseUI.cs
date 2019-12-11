@@ -7,6 +7,8 @@ public class PauseUI : MonoBehaviour
 
     public static bool GameIsPaused = false;
     public GameObject _pauseMenu;
+    public GameObject otherobj;
+    public string MoveTowardsObject;
     void Start()
     {
         
@@ -24,6 +26,7 @@ public class PauseUI : MonoBehaviour
             else
             {
                 Pause();
+         
             }
         }
         
@@ -40,6 +43,9 @@ public class PauseUI : MonoBehaviour
         _pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-            
+        
+         
     }
+    
+    
 }
