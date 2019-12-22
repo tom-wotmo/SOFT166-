@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Main Menu.unity
+    path: Assets/Scenes/Main Menu.unity
     guid: 5d46e0cf5bb1f4840bc9c4843b366d10
   - enabled: 1
-    path: Assets/Zombie Shooter level 1.unity
+    path: Assets/Scenes/Zombie Shooter level 1.unity
     guid: ac672131390fa4c0ca07dae518b16b7e
   m_configObjects: {}
