@@ -10,22 +10,23 @@ public class MoveTowardsObject: MonoBehaviour
 
     private void Update()
     {
+
         if (PauseUI.GameIsPaused)
         {
             transform.position = transform.position;
         }
 
         else
-        {
+        { 
             if (target != null)
             {
                 transform.position = Vector3.MoveTowards(transform.position, target.position, speed * 0.01f);
+            
+            
             }
-            if (PauseUI.GameIsPaused)
-            {
-
-            }
-        }
+         }
+            
+        
     }
 
     public void SetTarget(Transform newTarget)
