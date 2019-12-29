@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8402462395402011044}
   - component: {fileID: 8402462395402011045}
   m_Layer: 0
-  m_Name: Zombie Spawner
+  m_Name: SkeletonASpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d354a60b6534f8ba96b97f75522019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 8
+  time: 10
   repeat: 1
   onTimerComplete:
     m_PersistentCalls:
