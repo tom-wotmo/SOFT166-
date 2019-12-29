@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 3586849365292299176}
   - component: {fileID: -1063205143642901949}
   m_Layer: 9
-  m_Name: Zombie
+  m_Name: SkeletonA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 3586849365292299155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.8251348, y: -0.10440707, z: 0}
-  m_LocalScale: {x: 1.671875, y: 1.4625001, z: 1}
+  m_LocalScale: {x: 0.9979268, y: 0.99222875, z: 1}
   m_Children:
   - {fileID: 7804483332555027163}
   m_Father: {fileID: 0}
@@ -133,7 +133,7 @@ SpriteRenderer:
   m_SortingLayerID: 2005315705
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cf8868710f2754a03a803f72b92ac9cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2119eab0deaf543acaae9ca053650e75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e401e26dea24427188d32066b740de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 6
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 5
+  speed: 7
 --- !u!58 &3586849365292299156
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -242,9 +242,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.026610756, y: -0.3803918}
+  m_Offset: {x: 0.017103609, y: -0.9158464}
   serializedVersion: 2
-  m_Radius: 0.5929189
+  m_Radius: 1.1728516
 --- !u!114 &1150145905475180385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 3.087081
+  m_Mass: 4.303614
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
