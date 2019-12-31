@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4461349100092036809}
   - component: {fileID: -8098192699554063985}
-  - component: {fileID: 1694223216845351751}
   - component: {fileID: 796161589155180030}
   - component: {fileID: 1912761750795920599}
   - component: {fileID: 2036331338206933720}
@@ -47,40 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e04e3f5f352a4673aa0b07dceee1192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1694223216845351751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5479138252697382181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e401e26dea24427188d32066b740de3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 15
-  onDie:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -8098192699554063985}
-        m_MethodName: Die
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onDamaged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
 --- !u!212 &796161589155180030
 SpriteRenderer:
   m_ObjectHideFlags: 0
