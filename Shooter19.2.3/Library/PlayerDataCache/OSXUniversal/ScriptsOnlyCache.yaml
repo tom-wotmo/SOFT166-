@@ -23,7 +23,7 @@ ScriptsOnlyBuild:
     - PlayClip
     - Player
     - PlayerDeath
-    - RandomSpawn
+    - RandomSpawnPickup
     - Restart
     - Settings
     - SmoothFollow2D
@@ -249,7 +249,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 99006}
     - Class: 114
-      Script: {instanceID: 153518}
+      Script: {instanceID: 183160}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -893,6 +893,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RandomSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 914391ac01f5e9a8deb747fc1c65c4aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomSpawnPickup
   platform: 2
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
