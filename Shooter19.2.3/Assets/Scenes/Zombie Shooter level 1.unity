@@ -2755,7 +2755,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 962089584}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120400562
 GameObject:
@@ -3846,7 +3846,7 @@ PrefabInstance:
     - target: {fileID: 8739181622925330286, guid: 764047f65ddd344feb6d2059b89e191a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8739181622925330286, guid: 764047f65ddd344feb6d2059b89e191a,
         type: 3}
@@ -12349,7 +12349,7 @@ Transform:
   m_LocalScale: {x: 1.8099658, y: 1.68495, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.17600001}
 --- !u!1 &676702177
 GameObject:
@@ -18825,7 +18825,6 @@ Transform:
   - {fileID: 1507219370}
   - {fileID: 639575339}
   - {fileID: 1852430094}
-  - {fileID: 1326652156}
   - {fileID: 1131945602}
   - {fileID: 119510091}
   m_Father: {fileID: 0}
@@ -18878,7 +18877,7 @@ MonoBehaviour:
   pickupPrefab: {fileID: 8856784319760515318, guid: 656f7372144104e6eb6feda4257d8681,
     type: 3}
   spawnTime: 75
-  spawnLoc: {fileID: 1326652156}
+  spawnLoc: {fileID: 0}
 --- !u!114 &962089588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18893,7 +18892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupPrefab: {fileID: 8856784319760515318, guid: 656f7372144104e6eb6feda4257d8681,
     type: 3}
-  spawnTime: 135
+  spawnTime: 240
   spawnLoc: {fileID: 1852430094}
 --- !u!114 &962089589
 MonoBehaviour:
@@ -18909,7 +18908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupPrefab: {fileID: 8856784319760515318, guid: 656f7372144104e6eb6feda4257d8681,
     type: 3}
-  spawnTime: 90
+  spawnTime: 120
   spawnLoc: {fileID: 639575339}
 --- !u!114 &962089590
 MonoBehaviour:
@@ -21988,7 +21987,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 962089584}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1132107800
 GameObject:
@@ -24888,36 +24887,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1326652155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1326652156}
-  m_Layer: 0
-  m_Name: SpeedIncrease 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1326652156
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326652155}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 962089584}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1329091311
 GameObject:
   m_ObjectHideFlags: 0
@@ -31165,7 +31134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e401e26dea24427188d32066b740de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 75
+  health: 100
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -32818,7 +32787,7 @@ MonoBehaviour:
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
-  m_FillCenter: 1
+  m_FillCenter: 0
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1

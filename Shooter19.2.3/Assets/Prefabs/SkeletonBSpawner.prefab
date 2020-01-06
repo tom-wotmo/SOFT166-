@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 8402462395402011044, guid: 52f933889826d4aa09240756d84cb435,
         type: 3}
       propertyPath: time
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8402462395402011044, guid: 52f933889826d4aa09240756d84cb435,
         type: 3}
