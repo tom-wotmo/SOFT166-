@@ -1,2 +1,2 @@
-# shooter mac
- mac attempt
+# SOFT166 Assignment
+ Windows and Mac builds
